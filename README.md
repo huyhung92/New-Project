@@ -8,6 +8,10 @@ Dự án này là một **Hệ Thống Điểm Danh Bằng Nhận Diện Gương
 - Giao diện thân thiện với người dùng được xây dựng bằng **PyQt5**.
 - Lưu trữ dữ liệu an toàn và hiệu quả với **PostgreSQL**.
 - Được container hóa hoàn toàn bằng **Docker** để đảm bảo tính nhất quán và dễ dàng triển khai.
+- Tải danh sách học sinh theo lớp và ngày đã chọn
+- Hiển thị trạng thái điểm danh hiện tại nếu đã có
+- Cho phép cập nhật hàng loạt
+- Tự động refresh danh sách học sinh khi lưu điểm danh
 
 ## Yêu Cầu
 - Docker & Docker Compose
@@ -19,7 +23,7 @@ Dự án này là một **Hệ Thống Điểm Danh Bằng Nhận Diện Gương
 1. **Clone Repository:**
    ```bash
    git clone https://github.com/yourusername/facial-recognition-attendance.git
-   cd facial-recognition-attendance
+   cd opencv2
    ```
 
 2. **Thiết Lập Biến Môi Trường:**
@@ -58,3 +62,8 @@ Dự án này là một **Hệ Thống Điểm Danh Bằng Nhận Diện Gương
    - Dữ liệu điểm danh được lưu trữ trong cơ sở dữ liệu PostgreSQL và có thể được truy vấn hoặc xuất ra khi cần.
 
 
+## About the Author
+
+**Name:** Võ Phi Hùng  
+**Email:** [vophihung987@gmail.com](mailto:vophihung987@gmail.com)  
+**GitHub:** [github.com/phihungvo](https://github.com/phihungvo)  
